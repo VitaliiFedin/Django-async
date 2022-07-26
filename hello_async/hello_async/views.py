@@ -28,7 +28,7 @@ async def get_smokables():
     await asyncio.sleep(2)
     async with httpx.AsyncClient() as client:
         await client.get("https://httpbin.org/")
-        print(client)
+        
 
         print("Returing smokeables")
         return [
