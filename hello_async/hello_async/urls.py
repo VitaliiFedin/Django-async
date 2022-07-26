@@ -22,4 +22,5 @@ urlpatterns = [
     path("", views.index),
     path("async/", views.async_view),
     path("sync/", views.sync_view),
+    path ("smoke_some_meats/", views.smoke_some_meats),
 ]
